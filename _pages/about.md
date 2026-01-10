@@ -44,7 +44,7 @@ Award
 Publications
 ======
 Journal
----
+======
 * C.-L. Chen, Y.-J. Rao, and C.-H. Sung, “Mitigating DDoS Attacks in Private 5G Networks Using Deep Learning,” Mobile Networks and Applications, Nov. 2025, doi: https://doi.org/10.1007/s11036-025-02475-4. (SCI)
 * C.-L. Chen, S.-C. Chiang, L.-P. Hung, and S.-J. Jhang, “Applying AIoT image recognition for prognosis of wound healing in long-term care residential facility,” Wireless Networks, vol. 30, no. 7, pp. 6523–6536 (2024). (SCI)
 * L. Hung, D. Yang, Z. Wu and C. Chen, Constructing a Search Mechanism for Dementia Patient Based on Multi-Hop Transmission Path Planning and Clustering Method, Journal of Mobile Networks and Applications 28, 313–324 (2023). (SCI)
@@ -68,7 +68,7 @@ Journal
 * H. Yen and C. Chen, On Minimal Elements of Upward-Closed Sets, Theoretical Computer Science, Volume 410, Issues 24-25, pp. 2442-2452, 28 May, 2009. (SCI)
 ‌
 Conference
----‌
+======
 * 戴昇杰、蘇嘉汶、鄭宇淵、謝宜辰、陳建良、陳君涵, "探討自動倉儲中自動導引車之路徑問題", Chinese Institute of Industrial Engineers Annual Conference, Kaohsiung, Taiwan, November 29, 2025.
 * L. Hung; Z. Wu; C. Yan and C. Chen, Using IoT and Autonomous Robots to Develop an Intelligent Solution for Sterilization and Disease Prevention, 7th International Conference on Knowledge Innovation and Invention, Aichi, Japan on August 16-18, 2024.
 * D. Chiang, C. Ho and C. Chen, Utilizing Wearable Devices to Assess the Level of Fatigue System, 7th EAI International Conference on Smart Grid and Internet of Things, Taichung, Taiwan, November 18-19, 2023.
