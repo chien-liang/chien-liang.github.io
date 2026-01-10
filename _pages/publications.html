@@ -5,32 +5,60 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+Journal Articles
+======
+* C.-L. Chen, Y.-J. Rao, and C.-H. Sung, “Mitigating DDoS Attacks in Private 5G Networks Using Deep Learning,” Mobile Networks and Applications, Nov. 2025, doi: https://doi.org/10.1007/s11036-025-02475-4. (SCI)
+* C.-L. Chen, S.-C. Chiang, L.-P. Hung, and S.-J. Jhang, “Applying AIoT image recognition for prognosis of wound healing in long-term care residential facility,” Wireless Networks, vol. 30, no. 7, pp. 6523–6536 (2024). (SCI)
+* L. Hung, D. Yang, Z. Wu and C. Chen, Constructing a Search Mechanism for Dementia Patient Based on Multi-Hop Transmission Path Planning and Clustering Method, Journal of Mobile Networks and Applications 28, 313–324 (2023). (SCI)
+* L. Hung, N. Hsieh and C. Chen, A RFID-Based Infection Prevention and Control Mechanism in Aged Care Living Residences, Journal of Mobile Networks and Applications, Vol. 27, Issue 1, pp. 33-46, 2022. (SCI)
+* L. Hung, C. Chen, R. Chang and Y.Hsu, Building a Smart Rehabilitation Delivery Platform with Hybrid Matching Algorithm Based on Long-Term Care Plan in Taiwan, Int. J. of Ad Hoc and Ubiquitous Computing, Vol. 37, No. 2, pp. 85-97, 2021.(SCI)
+* L. Hung, K. Chen, N. Hsieh and C. Chen, Using Internet of Things to Improve the Sterilization Process for Surgical Instruments in Healthcare, Journal of Internet Technology, Vol. 21, No. 6, pp. 1811-1819, Nov. 2020. (SCI)
+* C. Lin, S. Chang and C. Chen, Link Scheduling for Wireless Mesh Networks Considering Gateway Feature, EAI Endorsed Transactions on Internet of Things, Vol 6, No. 22, July 2020.
+* L. Hung, Y. Chao and C. Chen, A Hybrid Key Item Locating Method to Assist Elderly Daily Life Using Internet of Things, Journal of Mobile Networks and Applications, Vol 23, Issue 3, pp 786-795, June 2019. (SCI)
+* L. Hung, Y. Du, and C. Chen, A Matching Mechanism for Homecare Service based on Patient’s and Caregiver’s Criteria, Journal of Advances in Information Technology, Vol. 8, No. 3, pp. 181-186, August, 2017. (EI)
+* C. Lin, J. Kang, D. Chiang, and C. Chen, Nurse Scheduling with Joint Normalized Shift and Day-Off Preference Satisfaction Using a Genetic Algorithm with Immigrant Scheme, International Journal of Distributed Sensor Networks, Article ID 595419, Vol. 11, Issue 7, pp. 1-  10, 2015. (SCI)
+* C. Wang, D. Chiang, C. Chen, and H. Chen, Intuitive Projection Display System Supporting the Manipulation of Dual Laser Pens, International Journal of Computer Theory and Engineering, Vol. 7, No. 4, pp.320-324, August 2015. (EI)
+* C. Chen, N. Hsieh and L. Hung, Developing a Wireless Based Dynamic Management Mechanism for Intravenous Drip Scheduling, International Journal of Ad Hoc and Ubiquitous Computing, Vol 19, Issue 3/4, pp. 208-220, July, 2015. (SCI)
+* C. Wang, C. Chen and D. Deng, P2P-Based Mobile Navigation System with Location Service, Peer-to-Peer Networking and Applications, Vol 8, Issue 1, pp. 22-31, January, 2015. (SCI)
+* D. Chiang, C. Wang, C. Chen and D. Deng, Real-Time Data Delivery Using Prediction Mechanism in Mobile Environments, Wireless Personal Communications Journal, Vo. 74, Issue 4, pp. 1345-1362, Jan 2014. (SCI)
+* D. Chiang, C. Chen and C. Wang, Effective Balance of Mobile Education Clients in Mobile Environments, Journal of Computers, Vol. 23, No. 4, pp. 12-19, January 2013. (EI)
+* D. Chiang, C. Chen, C. Lin and Timothy K. Shih, Broadcasting Data Items with Time Constraints Based on On-Demand Multichannel in Ubiquitous Environments, Journal of Networks, Vol. 6, No. 5, pp. 689-696, May 2011. (EI)
+* D. Chiang, Timothy K. Shih and C. Chen, Disseminating Data with Time Constraint Based on Multichannel over Ubiquitous Computing Environments, World Wide Web Journal -- Internet and Web Information Systems, Vol. 14, No. 3, pp. 223-241, 2011. (SCI)
+* D. Chiang, C. Chen, D. Deng, Timothy K. Shih and H. Hsu, Quality of Service Provisioning Scheme for Data Dissemination with Time Constraints in Ubiquitous Environments, Journal of Internet Technology, Vol. 11 No. 6, pp. 777-786, 2010. (SCI)
+* C. Chen, S. Chin and H. Yen, Reachability Analysis of Augmented Marked Graphs via Integer Linear Programming, The Computer Journal, Vol. 53, Issue 6, pp. 623-633, 2010. (SCI)
+* C. Chen, S. Wang and H. Yen, Reachability Analysis of Variants of Communication-Free Petri Nets, IEICE Transactions, Vol.E92-D, No.3, pp. 377-388, 2009. (SCI)
+* H. Yen and C. Chen, On Minimal Elements of Upward-Closed Sets, Theoretical Computer Science, Volume 410, Issues 24-25, pp. 2442-2452, 28 May, 2009. (SCI)
 
-{% include base_path %}
+‌
+Conference Papers
+======
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
+* 戴昇杰、蘇嘉汶、鄭宇淵、謝宜辰、陳建良、陳君涵, "探討自動倉儲中自動導引車之路徑問題", Chinese Institute of Industrial Engineers Annual Conference, Kaohsiung, Taiwan, November 29, 2025.
+* L. Hung; Z. Wu; C. Yan and C. Chen, Using IoT and Autonomous Robots to Develop an Intelligent Solution for Sterilization and Disease Prevention, 7th International Conference on Knowledge Innovation and Invention, Aichi, Japan on August 16-18, 2024.
+* D. Chiang, C. Ho and C. Chen, Utilizing Wearable Devices to Assess the Level of Fatigue System, 7th EAI International Conference on Smart Grid and Internet of Things, Taichung, Taiwan, November 18-19, 2023.
+* L. Hung, C. Xu, C. Wang and C. Chen, Applying the Shapley Value Method to Predict Mortality in Liver Cancer based on Explainable AI, 6th EAI International Conference on Smart Grid and Internet of Things, Taichung, Taiwan, November 19-20, 2022.
+* L. Hung, C. Yang, L. Lee and C. Chen, Constructing a Violence Recognition Technique for Elderly Patients with Lower Limb Disability, 5th EAI International Conference on Smart Grid and Internet of Things, Taichung, Taiwan, October 30-31, 2021.
+* L. Hung, Z. Wu, C. Chun, S. Li and C. Chen, Develop an Intelligent Hierarchical Alert Mechanism for Elderly Residential Institutions, 4th EAI International Conference on Smart Grid and Internet of Things, Taichung, Taiwan, December 5-6, 2020.
+* L. Hung, S. Li, K. Chen and C. Chen, “Using Multi-channel Transmission Technology to Construct an IoT Mechanism for Homecare Service”, 12th International Wireless Internet Conference, Taichung, November 26-27, Taiwan, 2019.
+* L. Hung, C. Peng and C. Chen, “Using Internet of Things Technology to Improve Patient Safety in Surgical Instrument Sterilization Control”, 11th International Wireless Internet Conference, Taipei, Taiwan, October 15-16, 2018.
+* L. Hung, C. Chen, C. Sung and C. Ho, “Orientation Training System for Elders with Dementia Using Internet of Things”, 3rd International Conference on IoT as a Service, Taichung, Taiwan, September 20-22, 2017.
+* C. Wang, C. Chen and S. Chen, “An Augmented Reality Mobile Navigation System Integrating Indoor Localization and Recommendation Mechanism,” The 5th International Conference on Frontier Computing (FC 2016), Tokyo, Japan, July 13-15, 2016.
+* D. Chiang, C. Wang, C. Chen, and W. Lo, " Scheduling Analysis of Broadcasting Real-Time Data Based on Prediction Scheme over Wireless Multi-Channels," 11th EAI International Conference on Heterogeneous Networking for Quality, Reliability, Security and                  Robustness (QSHINE 2015), Taipei, Taiwan, August 19-20.
+* D. Chiang, C. Wang, C. Chen, and W. Lo, "Scheduling Management for Multiple Real-Time Data over On-Demand Mobile Environments," 2015 IEEE International Conference on Mobile Services, New York, USA, June 27-July 02, 2015.
+* C. Wang, D. Chiang, C. Chen, and H. Chen, Intuitive Projection Display System Supporting the Manipulation of Dual Laser Pens, 4th International Conference on Computer and Communication Devices (ICCCD 2014), Hong Kong, July 28-29, 2014.
+* T. Wu, C. Ho, and C. Chen, A SAT Approach to Nursing Scheduling Problem, The 9th FTRA International Conference on Future Information Technology, Zhangjiajie, China, May 28-31, 2014.
+* C. Wang, and C. Chen, RFID-Based and Kinect-Based Indoor Positioning System, Global Wireless Summit (GWS 2014), IEEE Press, Aalborg, Denmark, May 11-14, 2014.
+* C. Wang, D. Chiang, C. Chen, and H. Chen, Intuitive Projection Display System Supporting the Manipulation of Dual Laser Pens, 4th International Conference on Computer and Communication Devices (ICCCD 2014), Hong Kong, July 28-29, 2014.
+* D. Chiang, C. Wang, C. Chen, and W. Lo, Performance Analysis of Broadcasting Real-Time Data Placement over Wireless Multi-Channels, The 2014 International Conference on Wireless Networks(ICWN'14), Las Vegas, USA, July 21-24, 2014.
+* C. Lin, J. Kang, J. Chen, and C. Chen, Detecting Hierarchical Community Structure in Social Networks Using Integer Linear Programming, IEEE Conference on Industrial Engineering and Engineering Management (IEEM 2013), IEEE Press, Bangkok, Thailand, Dec. 10-13,    2013.
+* C. Wang, C. Chen and Y. Guo, A Real-time Indoor Positioning System Based on RFID and Kinect, The 10th FTRA International Conference on Secure and Trust Computing, data management, and Applications, Fukouka, Japan, July 8-10, 2013.
+* D. Chiang, C. Wang, C. Chen and D. Deng, Data Processing with Time Constraint Using Prediction Algorithm in Mobile Environment, The 15th International Symposium on Wireless Personal Multimedia Communications, Taipei, Taiwan, September 24-27, 2012.
+* D. Chiang, C. Chen and C. Wang, Dynamic Deployment of Educational Clients Using Prediction Mechanism in Mobile Environments, International Workshop on Advanced Distance Education Technologies (ADET'2012), Xining, China, August 16-18, 2012.
+* C. Wang, C. Chen, W. Hsu, and Y. Wei, A Location-aware Mobile Navigation System Integrating Recommendation Mechanism, The 4th International Conference on Awareness Science and Technology (iCAST 2012), Seoul, Korea, August 2012.
+* C. Wang, W. Chen and C. Chen, Location-Based P2P Mobile Navigation System, International Symposium on Computer Science and Society, Kota Kinabalu, Malaysia, July 2011.
+* D. Chiang, C. Chen and W. Lo, Valid Location Measuring in Location Dependent Data for Mobile Environments, The Fourth International Conference on Ubi-Media Computing (U-Media 2011), Sao Paulo, Brazil, July 3-4, 2011.
+* L. Hung, N. Hsieh, C. Ho and C. Chen, Building a Personalized Multidimensional Intelligent Learning System, International Conference on Computer, Electrical, and Systems Science, and Engineering, Bali, Indonesia, July 14-16, 2010.
+* H. Yen and C. Chen, Computing Minimal Elements of Upward-Closed Sets for Petri Nets, in Proc. of the 28th Int'l Conf. on Application and Theory of Petri Nets and Other Models of Concurrency (Petri Nets 2007), (LNCS 4546), pp. 465-483, Siedlce, Poland, June 25-29,  2007.
+* C. Chen, T. Lin, and H. Yen, Modelling and Analysis of Asynchronous Circuits and Timing Diagrams Using Parametric Timed Automata, in Proc. of the 23rd IASTED Int'l Conf. on Modelling, Identification and Control (MIC 2004), Grindelwald, Switzerland, February 23-25, 2004.
 
 
